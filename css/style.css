@@ -142,6 +142,19 @@ section h3::after {
 #contact {
 	background-color: #f9f9f9;
 }
+.home__social{
+  display: flex;
+  flex-direction: column;
+}
+.home__social-icon{
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
+.home__social-icon:hover{
+  color: var(--first-color);
+}
 #skills .bar {
 	height: 30px;
 	background-color: #fff;
